@@ -1,0 +1,314 @@
+body{
+  display: flex;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+  font-size: auto;
+  color: #ebf0f6;
+  margin-left: 20px;
+}
+
+a{
+  margin-left: 20px;
+  font-size: auto ;
+  color: #ebf0f6;
+  text-decoration: none;
+}
+
+.leftColumn{
+  background-color: #364e68;
+  display: flex;
+  flex-direction: column;
+}
+
+.rigthColumn{
+  background-color: #ebf0f6;
+  display: flex;
+  flex-direction: column;
+  padding-left: 28px;
+  width: -webkit-fill-available;
+}
+
+/* Imagen de perfil */
+
+.photo{
+  align-self: center;
+  margin: 50px;
+}
+
+.photo img{
+  width: 300px;
+  border-color: #ebf0f6;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 50%;
+}
+
+.presentation{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Texto de presentacion */
+h3{
+  color: #ebf0f6;
+  background-color: #132238;
+  margin: auto;
+  padding: 5px 15px;
+  font-size: 30px;
+  border-radius: 100px;
+}
+
+h1{
+  color: #ebf0f6;
+  margin: auto;
+  margin-top: 30px;
+}
+
+h2{
+  color: #ebf0f6;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+/* Informacion de contacto  */
+
+.container{
+  margin: 20px 0;
+}
+
+.container-header{
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  background-color: #132238;
+  padding: 20px;
+}
+
+.container img{
+  width: 50px;
+  margin-left: 50px;
+}
+
+h4{
+  color: #ebf0f6;
+  margin-right: 80px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.contact-information{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-information div{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 10px;
+}
+
+.languge-information{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.languge-information div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  margin-left: 50px;
+  margin-right: 20px;
+  width: 60px;
+}
+
+.right{
+  margin-left: 50px;
+}
+
+.hobbies-information{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hobbies-information p{
+  margin: 10px 20px;
+}
+
+.container-education{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 60px 0;
+  padding-right: 40px;
+}
+
+.tag-education{
+  transform: rotate(90deg);
+  transform-origin: left;
+  background-color: #FF771C;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+  width: 200px;
+  height: 56px;
+  color: white;
+  font-size: 25px;
+}
+
+.tag-experience{
+  transform: rotate(90deg);
+  transform-origin: left;
+  background-color: #82FF2E;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+  width: 200px;
+  height: 56px;
+  color: white;
+  font-size: 25px;
+}
+
+.tag-skills{
+  transform: rotate(90deg);
+  transform-origin: left;
+  background-color: #FF0F3F;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+  width: 200px;
+  height: 56px;
+  color: white;
+  font-size: 25px;
+}
+
+.tag-certifications{
+  transform: rotate(90deg);
+  transform-origin: left;
+  background-color: #5B168A;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+  width: 200px;
+  height: 56px;
+  color: white;
+  font-size: 25px;
+}
+
+.tag-archivements{
+  transform: rotate(90deg);
+  transform-origin: left;
+  background-color: #0AA5FF;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+  width: 200px;
+  height: 56px;
+  color: white;
+  font-size: 25px;
+}
+
+h5{
+    margin: 0px;
+    padding-top: 15px;
+    width: inherit;
+}
+
+.education-info-container ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.education-info-container ul li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.education-info p{
+  color: #364e68;
+}
+
+.p-margin{
+  margin: 5px 20px;
+  text-align: left;
+  width: 300px;
+}
+
+.p-no-margin{
+  margin: 10px;
+  width: 120px;
+  text-align: right;
+}
+
+.education-info{
+  display: flex;
+  align-items: center;
+}
+
+.education-info-container{
+  display: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.education-info-imagen{
+  display: flex;
+  align-items: center;
+}
+
+.education-info-imagen img{
+    width: 120px;
+}
+
+.circle{
+  margin: 10px;
+  display: flex;
+  width: 25px;
+  height: 25px;
+  background-color: #132238;
+  border-radius: 50%;
+}
+
+.circle-radius{
+  margin: 10px;
+  display: flex;
+  width: 25px;
+  height: 25px;
+  border-color: #132238;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thin;
+}
+
+.radio-text{
+  margin: 10px;
+  width: 100px;
+  text-align: right;
+}
+
+.point{
+  margin: 0 10px;
+  display: flex;
+  width: 5px;
+  height: 5px;
+  border-color: #132238;
+  border-radius: 50%;
+  border-style: double;
+}
+
+.certificate-link{
+  color: #5B168A;
+  font-size: 15px;
+  text-align: center;
+  border: solid 2px;
+  border-radius: 20px;
+  width: 60px;
+  padding: 5px;
+}
